@@ -1,0 +1,33 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	border: 5px solid yellowgreen;
+	border-radius: 15px;
+	grid-gap: 5px;
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.card {
+	min-width: 150px;
+	min-height: 150px;
+	border-radius: 5px;
+}
+
+.card-hidden {
+	background-color: #eee;
+}
+
+.reset-btn {
+	border: none;
+	border-radius: 10px;
+	padding: 1rem;
+	background-color: blue;
+	color: white;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 1rem;
+}
