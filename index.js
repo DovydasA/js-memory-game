@@ -62,7 +62,7 @@ grid.addEventListener('click', (e) => {
 			points += 10;
 			cardsLeft -= 2;
 			console.log(cardsLeft);
-			if (cardsLeft === 0) alert('game ended' + points);
+			if (cardsLeft === 0) alert('game ended: ' + points + ' points');
 		} else {
 			console.log('different color');
 			points -= 1;
